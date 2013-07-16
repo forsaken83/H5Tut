@@ -1,6 +1,66 @@
 @CHARSET "UTF-8";
 
+body {
+	background-image: url(../pictures/hintergrund.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
 h1 {
-	font.size: 20px;
+	font-size: 20px;
 	color: #FF0000;
+}
+
+.sharky {
+	color: #0000ff;
+}
+
+/* 
+#################
+Article
+#################
+*/
+
+@media screen and (min-device-width: 768px) {
+	article {
+		-webkit-column-count: 2;
+		-webkit-column-rule: solid 1px #cccccc;
+		-webkit-column-gap: 20px;
+	}
+}
+
+/* 
+#################
+Kopfbereich
+#################
+*/
+
+header {
+	border-radius: 15px;
+	background-color: #1384ed;
+	text-align: center;
+	opacity: 0.7;
+}
+
+header h1 {
+	font-size: 40px;
+	color: #fff;
+	text-transform: upp
+}
+/* 
+#################
+Footerbereich
+#################
+*/
+
+footer {
+	box-shadow: 2px 5px 10px #ccc;
+	text-align: center;
+}
+
+footer h1 {
+	font-size: 20px;
+	color: #ccc;
+	text-transform: uppercase;
 }
