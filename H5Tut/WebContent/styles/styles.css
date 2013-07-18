@@ -56,7 +56,8 @@ Kopfbereich
 */
 
 header {
-	background-color: #1384ed;
+	/*background-color: #1384ed;*/
+	background-image: -webkit-linear-gradient(top, #1384ed, #204280);
 	text-align: center;
 	overflow: hidden;
 	position: fixed;
